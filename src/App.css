@@ -1,0 +1,14 @@
+.App {
+  min-height: 100vh;
+}
+
+@media print {
+  .print-hidden {
+    display: none !important;
+  }
+  
+  body {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
